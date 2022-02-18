@@ -15,7 +15,7 @@ class Student extends Model
     // fonction locker permettant de dire qu'un étudiant ne peut avoir qu'un casier (modifiable selon temps a disposition)
     public function locker()
     {
-        // Dispose d'un seul casier
+        // Dispose d'un seul casie
         return $this->hasOne(Locker::class);
     }
 }
